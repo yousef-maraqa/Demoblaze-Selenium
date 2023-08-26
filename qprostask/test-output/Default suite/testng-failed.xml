@@ -5,7 +5,7 @@
     <classes>
       <class name="qprostask.qprostask">
         <methods>
-          <include name="Register"/>
+          <include name="HasItems"/>
           <include name="MyBeforeTest"/>
         </methods>
       </class> <!-- qprostask.qprostask -->
