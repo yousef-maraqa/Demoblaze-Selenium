@@ -5,9 +5,14 @@
     <classes>
       <class name="Demoblaze.Demoblaze">
         <methods>
+          <include name="Login"/>
           <include name="AfterTest"/>
+          <include name="HasItems"/>
           <include name="MyBeforeTest"/>
+          <include name="RemoveItem"/>
+          <include name="AddRandToCart"/>
           <include name="Register"/>
+          <include name="CompleteCheckout"/>
         </methods>
       </class> <!-- Demoblaze.Demoblaze -->
     </classes>
