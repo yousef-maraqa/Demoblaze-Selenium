@@ -2,44 +2,44 @@
 <testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-08-26T20:47:25 EET" name="Default suite" finished-at="2023-08-26T20:47:51 EET" duration-ms="26261">
+  <suite started-at="2023-10-16T14:15:09 AST" name="Default suite" finished-at="2023-10-16T14:15:40 AST" duration-ms="31188">
     <groups>
     </groups>
-    <test started-at="2023-08-26T20:47:25 EET" name="Default test" finished-at="2023-08-26T20:47:51 EET" duration-ms="26261">
-      <class name="qprostask.qprostask">
-        <test-method is-config="true" signature="MyBeforeTest()[pri:0, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:25 EET" name="MyBeforeTest" finished-at="2023-08-26T20:47:26 EET" duration-ms="1130" status="PASS">
+    <test started-at="2023-10-16T14:15:09 AST" name="Default test" finished-at="2023-10-16T14:15:40 AST" duration-ms="31188">
+      <class name="Demoblaze.Demoblaze">
+        <test-method is-config="true" signature="MyBeforeTest()[pri:0, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:09 AST" name="MyBeforeTest" finished-at="2023-10-16T14:15:10 AST" duration-ms="1280" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- MyBeforeTest -->
-        <test-method signature="Register()[pri:1, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:26 EET" name="Register" description="Register" finished-at="2023-08-26T20:47:31 EET" duration-ms="5197" status="PASS">
+        <test-method signature="Register()[pri:1, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:10 AST" name="Register" description="Register" finished-at="2023-10-16T14:15:16 AST" duration-ms="5834" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Register -->
-        <test-method signature="Login()[pri:2, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:31 EET" name="Login" description="Login" finished-at="2023-08-26T20:47:36 EET" duration-ms="4453" status="PASS">
+        <test-method signature="Login()[pri:2, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:16 AST" name="Login" description="Login" finished-at="2023-10-16T14:15:21 AST" duration-ms="4643" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method signature="HasItems()[pri:3, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:36 EET" name="HasItems" description="Check the listed Categories has Items" finished-at="2023-08-26T20:47:36 EET" duration-ms="47" status="PASS">
+        <test-method signature="HasItems()[pri:3, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:21 AST" name="HasItems" description="Check the listed Categories has Items" finished-at="2023-10-16T14:15:21 AST" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HasItems -->
-        <test-method signature="AddRandToCart()[pri:4, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:36 EET" name="AddRandToCart" description="Add random item to the cart" finished-at="2023-08-26T20:47:42 EET" duration-ms="6517" status="PASS">
+        <test-method signature="AddRandToCart()[pri:4, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:21 AST" name="AddRandToCart" description="Add random item to the cart" finished-at="2023-10-16T14:15:28 AST" duration-ms="6805" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddRandToCart -->
-        <test-method signature="RemoveItem()[pri:5, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:42 EET" name="RemoveItem" description="Remove item from cart" finished-at="2023-08-26T20:47:47 EET" duration-ms="4516" status="PASS">
+        <test-method signature="RemoveItem()[pri:5, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:28 AST" name="RemoveItem" description="Remove item from cart" finished-at="2023-10-16T14:15:32 AST" duration-ms="4882" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveItem -->
-        <test-method signature="CompleteCheckout()[pri:6, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:47 EET" name="CompleteCheckout" description="Complete successful checkout with random item" finished-at="2023-08-26T20:47:51 EET" duration-ms="4282" status="PASS">
+        <test-method signature="CompleteCheckout()[pri:6, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:32 AST" name="CompleteCheckout" description="Complete successful checkout with random item" finished-at="2023-10-16T14:15:38 AST" duration-ms="5079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CompleteCheckout -->
-        <test-method is-config="true" signature="AfterTest()[pri:0, instance:qprostask.qprostask@4303b7f0]" started-at="2023-08-26T20:47:51 EET" name="AfterTest" finished-at="2023-08-26T20:47:51 EET" duration-ms="90" status="PASS">
+        <test-method is-config="true" signature="AfterTest()[pri:0, instance:Demoblaze.Demoblaze@2df3c564]" started-at="2023-10-16T14:15:38 AST" name="AfterTest" finished-at="2023-10-16T14:15:40 AST" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AfterTest -->
-      </class> <!-- qprostask.qprostask -->
+      </class> <!-- Demoblaze.Demoblaze -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

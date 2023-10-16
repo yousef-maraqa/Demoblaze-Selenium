@@ -1,4 +1,4 @@
-package qprostask;
+package Demoblaze;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package qprostask;
+package Demoblaze;
 
 import java.sql.Driver;
 import java.util.List;
@@ -17,7 +17,7 @@ import java.io.*;
 import java.lang.Thread;
 
 
-public class qprostask extends RandomNames {
+public class Demoblaze extends RandomNames {
   WebDriver driver = new ChromeDriver();
   Assertion Assertion = new Assertion();
 

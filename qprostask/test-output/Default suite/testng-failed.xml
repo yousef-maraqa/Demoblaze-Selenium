@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="qprostask.qprostask">
+      <class name="Demoblaze.Demoblaze">
         <methods>
-          <include name="HasItems"/>
+          <include name="AfterTest"/>
           <include name="MyBeforeTest"/>
+          <include name="Register"/>
         </methods>
-      </class> <!-- qprostask.qprostask -->
+      </class> <!-- Demoblaze.Demoblaze -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
